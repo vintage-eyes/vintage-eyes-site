@@ -85,9 +85,10 @@ if (form) {
       return;
     }
     const message = ['Hello Vintage Eyes!', `My name is ${name}.`, `Journey: ${form.elements.journey.value}`, `Travellers: ${guests}`];
+    if (form.elements.destination) message.push(`Destination: ${form.elements.destination.value}`);
     if (arrival.value) message.push(`Preferred arrival: ${arrival.value}`);
     if (form.elements.notes.value.trim()) message.push(`Notes: ${form.elements.notes.value.trim()}`);
-    message.push(`Tour page: ${document.querySelector('link[rel="canonical"]').href}`);
+    message.push(`Page: ${document.querySelector('link[rel="canonical"]').href}`);
     message.push('Please share availability, the itinerary and a quote.');
     const url = new URL('https://wa.me/916363336467');
     url.searchParams.set('text', message.join('\n'));

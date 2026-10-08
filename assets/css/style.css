@@ -39,6 +39,7 @@ dialog{width:min(620px,calc(100% - 32px));max-height:85dvh;background:var(--pape
 .tour-intro{font-size:13px;max-width:440px;color:var(--muted)}
 .tour-hero-actions{display:flex;gap:26px;align-items:center;margin:28px 0;flex-wrap:wrap}
 .tour-location{font-size:10px;letter-spacing:1px;color:var(--wine)}
+.tour-location a{border-bottom:1px solid #ad8e89;padding-bottom:2px}
 .tour-hero figure img{width:100%;height:380px;border-radius:45% 45% 0 0}
 .tour-hero figcaption{font-size:8px;letter-spacing:1.5px;margin-top:14px;color:var(--muted)}
 .tour-section-nav{position:sticky;top:0;z-index:15;background:var(--paper);padding:18px 5.5%;border-top:1px solid var(--line);border-bottom:1px solid var(--line);gap:28px;overflow-x:auto;white-space:nowrap}
@@ -103,3 +104,46 @@ dialog{width:min(620px,calc(100% - 32px));max-height:85dvh;background:var(--pape
 .other-tour:hover{background:#eee8dc}
 @media(max-width:1050px){.tour-layout{grid-template-columns:minmax(0,1fr) 275px;gap:4%}.tour-section-nav{gap:20px}.stop-list{grid-template-columns:1fr}.stay-options{grid-template-columns:1fr}.stay-options article{display:grid;grid-template-columns:90px 1fr;gap:10px;align-items:center}.stay-options h3{margin:0}.stay-options p:not(.eyebrow){grid-column:2}.tour-sidebar{padding:20px}.other-tour strong{font-size:22px}}
 @media(max-width:760px){.floating-whatsapp{right:16px;bottom:16px;padding:13px}.floating-whatsapp>span{display:none}.breadcrumbs{padding:20px 6% 0;font-size:9px;gap:9px}.tour-hero{grid-template-columns:1fr;gap:30px;padding-top:30px;padding-bottom:35px}.tour-hero h1{font-size:65px;letter-spacing:-1px}.tour-tagline{font-size:28px}.tour-hero figure img{height:300px}.tour-section-nav{width:100%;padding:15px 6%;flex-wrap:nowrap;gap:22px}.tour-section-nav a{font-size:10px}.tour-layout{display:flex;flex-direction:column;padding-top:35px;gap:35px}.tour-content{width:100%}.tour-sidebar{order:-1;width:100%;position:static;display:grid;grid-template-columns:1fr 1fr;gap:0 20px;padding:22px}.tour-sidebar>.eyebrow,.tour-sidebar>h2,.tour-sidebar>.section-note,.tour-sidebar>.button,.tour-sidebar>.sidebar-call{grid-column:1/-1}.tour-sidebar h2{margin-bottom:15px}.tour-sidebar dl{grid-column:1}.sidebar-price{margin:5px 0;grid-column:2;padding-left:10px}.sidebar-price strong{font-size:38px}.tour-sidebar dl>div{grid-template-columns:1fr;gap:3px}.tour-sidebar .section-note{margin-top:14px}.tour-section h2{font-size:36px}.tour-section{padding-bottom:35px;margin-bottom:35px}.day-itinerary{padding:20px}.day-heading{gap:12px}.day-number{font-size:32px}.day-heading h3{font-size:25px}.stop-list{grid-template-columns:1fr}.included-grid{grid-template-columns:1fr;gap:25px}.transfer-details{padding:20px}.stay-options article{grid-template-columns:1fr;gap:5px}.stay-options p:not(.eyebrow){grid-column:1}.other-journeys>div{grid-template-columns:1fr;gap:12px}.other-tour strong{font-size:27px}.tour-page .plan h2{font-size:54px}}
+
+/* Destination guides and links shared across the website. */
+.destination-strip a{transition:color .2s;position:relative}
+.destination-strip a:hover{color:var(--wine);text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
+.footer-destinations{display:flex;align-items:center;flex-wrap:wrap;gap:22px;padding:0 0 24px;font-size:10px;color:var(--wine)}
+.footer-destinations>span{font-size:8px;letter-spacing:1.2px;color:var(--muted);margin-right:auto}
+.footer-destinations a:hover,.footer-destinations a[aria-current="page"]{text-decoration:underline;text-underline-offset:4px}
+.destination-hero h1{font-size:clamp(68px,7vw,110px)}
+.destination-overview{display:grid;grid-template-columns:1fr 1.35fr;gap:8%;border-bottom:1px solid var(--line)}
+.destination-overview h2{margin-top:18px}
+.destination-overview>div>p{font-size:14px;line-height:1.95;color:var(--muted);max-width:650px}
+.destination-facts{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin-top:30px;padding-top:22px;border-top:1px solid var(--line)}
+.destination-facts span{font-size:8px;letter-spacing:1.4px;color:#9b7f6a}
+.destination-facts p{font-size:11px;color:var(--wine);margin-top:7px}
+.destination-highlights h2,.destination-visit h2,.destination-related h2{margin:18px 0 30px;font-size:48px}
+.destination-highlight-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.destination-highlight{border:1px solid var(--line);padding:30px;background:#fbf9f4}
+.destination-highlight>.eyebrow{color:#ad8e7b;font-size:11px}
+.destination-highlight h3{font:30px/1.2 var(--serif);margin:18px 0 14px;color:var(--wine)}
+.destination-highlight p{font-size:12px;color:var(--muted);max-width:470px;line-height:1.9}
+.destination-visit{background:#eee8dc;max-width:none}
+.destination-visit-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:35px}
+.destination-visit-grid h3{font:28px var(--serif);margin-bottom:15px}
+.destination-visit-grid p{font-size:12px;color:var(--muted);line-height:1.9}
+.destination-visit>.section-note{margin-top:30px}
+.destination-sources{font-size:9px;color:var(--muted);margin-top:15px;line-height:1.9}
+.destination-sources a{text-decoration:underline;text-underline-offset:2px}
+.destination-tours .section-note{margin-bottom:26px}
+.destination-tours .circuit-note{background:#eee8dc;border-left:2px solid #ad8e89;padding:14px 18px;font-size:11px;max-width:800px}
+.destination-tours .single-tour{grid-template-columns:1fr}
+.single-tour .tour-card{display:grid;grid-template-columns:1.1fr 1fr}
+.single-tour .tour-image img{height:100%;min-height:315px;max-height:430px}
+.single-tour .tour-body{padding:35px}
+.destination-related{border-top:1px solid var(--line)}
+.destination-related>div{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.destination-related-card img{width:100%;height:210px;transition:opacity .2s}
+.destination-related-card:hover img{opacity:.85}
+.destination-related-card>div{display:flex;justify-content:space-between;align-items:center;margin-top:15px;gap:15px;color:var(--wine)}
+.destination-related-card h3{font:32px var(--serif)}
+.destination-related-card>div>span{font-size:23px}
+.destination-related-card>p{font-size:10px;color:var(--muted);margin-top:7px}
+@media(max-width:1000px){.destination-visit-grid{gap:25px}.destination-related-card img{height:170px}.single-tour .tour-body{padding:25px}}
+@media(max-width:760px){.footer-destinations{gap:16px;justify-content:flex-start;font-size:10px}.footer-destinations>span{width:100%;margin-right:0}.destination-hero h1{font-size:72px;overflow-wrap:break-word}.destination-overview{grid-template-columns:1fr;gap:25px}.destination-overview h2{font-size:46px}.destination-overview>div>p{font-size:13px}.destination-facts{gap:20px}.destination-highlights h2,.destination-visit h2,.destination-related h2{font-size:40px}.destination-highlight-grid,.destination-visit-grid,.destination-related>div{grid-template-columns:1fr;gap:20px}.destination-highlight{padding:25px}.destination-highlight h3{font-size:29px}.destination-visit-grid{gap:28px}.single-tour .tour-card{display:block}.single-tour .tour-image img{min-height:0;height:280px}.destination-related-card img{height:240px}.destination-related-card h3{font-size:33px}.destination-page .plan h2{font-size:50px}}

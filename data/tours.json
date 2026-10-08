@@ -19,10 +19,59 @@
     "stays": "1 night in Hampi",
     "transferCopy": "Share both your arrival and return timings when you enquire. We’ll agree on a meeting point and plan the sightseeing around the time you have. Keep your departure details handy, especially if your second day is shorter.",
     "stayCopy": "A good short break begins with a stay that suits you. Tell us whether you prefer a simple room, more comfort, or something special. The property and room type will be named in your quote before you confirm.",
-    "faqs": [["Is two days enough?", "It’s a compact introduction, so tell us which stops matter most to you. If you would rather spend longer at each place, ask about adding a day or choosing Heritage."], ["Can I arrive late on the first day?", "Share your arrival time before booking. We’ll explain what can fit into the remaining day and agree on any changes with you."], ["Are the second-day stops guaranteed?", "They depend on your departure time. We’ll work through the available sightseeing window with you before the itinerary is confirmed."]],
+    "faqs": [
+      [
+        "Is two days enough?",
+        "It’s a compact introduction, so tell us which stops matter most to you. If you would rather spend longer at each place, ask about adding a day or choosing Heritage."
+      ],
+      [
+        "Can I arrive late on the first day?",
+        "Share your arrival time before booking. We’ll explain what can fit into the remaining day and agree on any changes with you."
+      ],
+      [
+        "Are the second-day stops guaranteed?",
+        "They depend on your departure time. We’ll work through the available sightseeing window with you before the itinerary is confirmed."
+      ]
+    ],
     "days": [
-      {"title": "Arrive, check in & explore Hampi", "intro": "Meet your driver in Hospet, settle into your hotel, then begin sightseeing.", "end": "Overnight in Hampi.", "stops": ["Vijaya Vittala Temple", "Malyavanta Hill", "Bhima’s Gateway", "Ganagitti Jain Temple", "Pattabhirama Temple", "Lakshmi Narasimha Temple", "Badavilinga Temple", "Krishna Temple", "Virupaksha Temple", "Sasivekalu Ganesha Temple", "Hemakuta Hill Temple"]},
-      {"title": "Check out, sightseeing & departure", "intro": "After breakfast and checkout, visit these stops as your departure time permits.", "end": "Drop-off at Hospet railway station or bus stand.", "stops": ["Queen’s Bath", "Mahanavami Platform", "Hazara Rama Temple", "Zenana Enclosure", "Lotus Mahal", "Elephant Stables", "Tungabhadra River coracle ride", "Kodandarama Temple", "Achyutaraya Temple", "Matanga Hills"]}
+      {
+        "title": "Arrive, check in & explore Hampi",
+        "intro": "Meet your driver in Hospet, settle into your hotel, then begin sightseeing.",
+        "end": "Overnight in Hampi.",
+        "stops": [
+          "Vijaya Vittala Temple",
+          "Malyavanta Hill",
+          "Bhima’s Gateway",
+          "Ganagitti Jain Temple",
+          "Pattabhirama Temple",
+          "Lakshmi Narasimha Temple",
+          "Badavilinga Temple",
+          "Krishna Temple",
+          "Virupaksha Temple",
+          "Sasivekalu Ganesha Temple",
+          "Hemakuta Hill Temple"
+        ]
+      },
+      {
+        "title": "Check out, sightseeing & departure",
+        "intro": "After breakfast and checkout, visit these stops as your departure time permits.",
+        "end": "Drop-off at Hospet railway station or bus stand.",
+        "stops": [
+          "Queen’s Bath",
+          "Mahanavami Platform",
+          "Hazara Rama Temple",
+          "Zenana Enclosure",
+          "Lotus Mahal",
+          "Elephant Stables",
+          "Tungabhadra River coracle ride",
+          "Kodandarama Temple",
+          "Achyutaraya Temple",
+          "Matanga Hills"
+        ]
+      }
+    ],
+    "destinationIds": [
+      "hampi"
     ]
   },
   {
@@ -45,11 +94,72 @@
     "stays": "2 nights in Hampi",
     "transferCopy": "Send us your arrival details and your return departure time. We’ll agree on the pickup point, the final sightseeing window, and the time you need to be back. If you have a particular stop in mind, mention it while we’re shaping your plan.",
     "stayCopy": "You’ll return to the same base for two nights, so choose the kind of stay you enjoy coming back to. Tell us your room preferences and budget; the hotel name, room type and included meals will be confirmed in your quote.",
-    "faqs": [["How is Heritage different from Swift?", "Choose Heritage if you would like another day to explore. If you’re deciding between them, share your arrival and departure timings and we’ll help you compare the plans."], ["Is the hill visit suitable for everyone?", "Tell us about any mobility needs or if you would prefer to avoid climbs. We’ll discuss the walking involved and agree on alternatives where needed."], ["Can we change the final day?", "Tell us your interests and your departure time. We’ll discuss a revised plan and confirm any change to the quote before booking."]],
+    "faqs": [
+      [
+        "How is Heritage different from Swift?",
+        "Choose Heritage if you would like another day to explore. If you’re deciding between them, share your arrival and departure timings and we’ll help you compare the plans."
+      ],
+      [
+        "Is the hill visit suitable for everyone?",
+        "Tell us about any mobility needs or if you would prefer to avoid climbs. We’ll discuss the walking involved and agree on alternatives where needed."
+      ],
+      [
+        "Can we change the final day?",
+        "Tell us your interests and your departure time. We’ll discuss a revised plan and confirm any change to the quote before booking."
+      ]
+    ],
     "days": [
-      {"title": "Arrival & the temple trail", "intro": "Hospet pickup and hotel check-in, followed by the first day’s sightseeing.", "end": "Overnight in Hampi.", "stops": ["Vijaya Vittala Temple", "Virupaksha Temple", "Malyavanta Hill", "Ganagitti Jain Temple", "Bhima’s Gateway", "Pattabhirama Temple", "Lakshmi Narasimha Temple", "Badavilinga Temple", "Krishna Temple", "Kadalekalu Ganesha Temple", "Sasivekalu Ganesha Temple", "Hemakuta Hill"]},
-      {"title": "A full day of Hampi sightseeing", "intro": "After breakfast, continue through the monuments and riverside sights.", "end": "Return to your hotel for a second night in Hampi.", "stops": ["Queen’s Bath", "Mahanavami Platform", "Hazara Rama Temple", "Zenana Enclosure", "Lotus Mahal", "Elephant Stables", "Tungabhadra River coracle ride", "Kodandarama Temple", "Achyutaraya Temple", "Matanga Hills"]},
-      {"title": "Check out, Anegundi & departure", "intro": "After breakfast and checkout, visit these places as your departure time allows.", "end": "Drop-off at Hospet railway station or bus stand.", "stops": ["Archaeological Museum, Hampi", "Anjanadri Hills", "Anegundi Fort", "Pampa Sarovar", "Sanapur Lake"]}
+      {
+        "title": "Arrival & the temple trail",
+        "intro": "Hospet pickup and hotel check-in, followed by the first day’s sightseeing.",
+        "end": "Overnight in Hampi.",
+        "stops": [
+          "Vijaya Vittala Temple",
+          "Virupaksha Temple",
+          "Malyavanta Hill",
+          "Ganagitti Jain Temple",
+          "Bhima’s Gateway",
+          "Pattabhirama Temple",
+          "Lakshmi Narasimha Temple",
+          "Badavilinga Temple",
+          "Krishna Temple",
+          "Kadalekalu Ganesha Temple",
+          "Sasivekalu Ganesha Temple",
+          "Hemakuta Hill"
+        ]
+      },
+      {
+        "title": "A full day of Hampi sightseeing",
+        "intro": "After breakfast, continue through the monuments and riverside sights.",
+        "end": "Return to your hotel for a second night in Hampi.",
+        "stops": [
+          "Queen’s Bath",
+          "Mahanavami Platform",
+          "Hazara Rama Temple",
+          "Zenana Enclosure",
+          "Lotus Mahal",
+          "Elephant Stables",
+          "Tungabhadra River coracle ride",
+          "Kodandarama Temple",
+          "Achyutaraya Temple",
+          "Matanga Hills"
+        ]
+      },
+      {
+        "title": "Check out, Anegundi & departure",
+        "intro": "After breakfast and checkout, visit these places as your departure time allows.",
+        "end": "Drop-off at Hospet railway station or bus stand.",
+        "stops": [
+          "Archaeological Museum, Hampi",
+          "Anjanadri Hills",
+          "Anegundi Fort",
+          "Pampa Sarovar",
+          "Sanapur Lake"
+        ]
+      }
+    ],
+    "destinationIds": [
+      "hampi"
     ]
   },
   {
@@ -72,12 +182,85 @@
     "stays": "1 night in Hampi · 2 nights in Badami",
     "transferCopy": "Tell us where you want to finish the trip before making your return booking. We’ll confirm the drop-off point, transfer coverage and departure time in your quote. It’s worth checking these together so the last day feels as well planned as the first.",
     "stayCopy": "With more than one overnight base, room preferences matter throughout the trip. Tell us what makes a stay comfortable for you. We’ll name the properties at each base and confirm their room types and meal plans before you book.",
-    "faqs": [["How much time will we spend driving?", "Ask us for the driving plan with your quote. The route moves between destinations, so we’ll discuss travel time alongside the sightseeing and breaks."], ["Where should I book my return journey from?", "Confirm your final drop-off with us first. Your quote will state the departure point and what transfer is covered."], ["Can we extend the trip?", "Yes, ask us about the time you would like to add. We’ll discuss the revised route, accommodation and price before you decide."]],
+    "faqs": [
+      [
+        "How much time will we spend driving?",
+        "Ask us for the driving plan with your quote. The route moves between destinations, so we’ll discuss travel time alongside the sightseeing and breaks."
+      ],
+      [
+        "Where should I book my return journey from?",
+        "Confirm your final drop-off with us first. Your quote will state the departure point and what transfer is covered."
+      ],
+      [
+        "Can we extend the trip?",
+        "Yes, ask us about the time you would like to add. We’ll discuss the revised route, accommodation and price before you decide."
+      ]
+    ],
     "days": [
-      {"title": "Arrive & explore Hampi", "intro": "Hospet pickup, check-in and Hampi sightseeing.", "end": "Overnight in Hampi.", "stops": ["Vijaya Vittala Temple", "Queen’s Bath", "Lotus Mahal", "Elephant Stables", "Lakshmi Narasimha Temple", "Krishna Temple", "Virupaksha Temple", "Kadalekalu Ganesha Temple", "Sasivekalu Ganesha Temple", "Hemakuta Hill Temple", "Hampi Bazaar"]},
-      {"title": "Aihole, on the way to Badami", "intro": "After breakfast and checkout, explore Aihole en route to Badami.", "end": "Overnight in Badami.", "stops": ["Durga Temple", "Archaeological Museum, Aihole", "Lad Khan Temple", "Ravana Phadi Cave Temple", "Meguti Jain Temple"]},
-      {"title": "A day in Pattadakal", "intro": "After breakfast, explore the temple complex at Pattadakal.", "end": "Return to Badami for the night.", "stops": ["Kadasiddeshwara Temple", "Galaganatha Temple", "Jambulinga Temple", "Sangameshwara Temple", "Virupaksha Temple, Pattadakal", "Mallikarjuna Temple", "Kashi Vishwanatha Temple", "Papanatha Temple"]},
-      {"title": "Badami & your return journey", "intro": "After breakfast and checkout, visit Badami’s sights before departure.", "end": "Drop-off in Hospet or Badami, as agreed before booking.", "stops": ["Badami Caves", "Badami Fort", "Archaeological Museum, Badami", "Agastya Lake", "Bhoothanatha Temple", "Mallikarjuna Group of Temples"]}
+      {
+        "title": "Arrive & explore Hampi",
+        "intro": "Hospet pickup, check-in and Hampi sightseeing.",
+        "end": "Overnight in Hampi.",
+        "stops": [
+          "Vijaya Vittala Temple",
+          "Queen’s Bath",
+          "Lotus Mahal",
+          "Elephant Stables",
+          "Lakshmi Narasimha Temple",
+          "Krishna Temple",
+          "Virupaksha Temple",
+          "Kadalekalu Ganesha Temple",
+          "Sasivekalu Ganesha Temple",
+          "Hemakuta Hill Temple",
+          "Hampi Bazaar"
+        ]
+      },
+      {
+        "title": "Aihole, on the way to Badami",
+        "intro": "After breakfast and checkout, explore Aihole en route to Badami.",
+        "end": "Overnight in Badami.",
+        "stops": [
+          "Durga Temple",
+          "Archaeological Museum, Aihole",
+          "Lad Khan Temple",
+          "Ravana Phadi Cave Temple",
+          "Meguti Jain Temple"
+        ]
+      },
+      {
+        "title": "A day in Pattadakal",
+        "intro": "After breakfast, explore the temple complex at Pattadakal.",
+        "end": "Return to Badami for the night.",
+        "stops": [
+          "Kadasiddeshwara Temple",
+          "Galaganatha Temple",
+          "Jambulinga Temple",
+          "Sangameshwara Temple",
+          "Virupaksha Temple, Pattadakal",
+          "Mallikarjuna Temple",
+          "Kashi Vishwanatha Temple",
+          "Papanatha Temple"
+        ]
+      },
+      {
+        "title": "Badami & your return journey",
+        "intro": "After breakfast and checkout, visit Badami’s sights before departure.",
+        "end": "Drop-off in Hospet or Badami, as agreed before booking.",
+        "stops": [
+          "Badami Caves",
+          "Badami Fort",
+          "Archaeological Museum, Badami",
+          "Agastya Lake",
+          "Bhoothanatha Temple",
+          "Mallikarjuna Group of Temples"
+        ]
+      }
+    ],
+    "destinationIds": [
+      "hampi",
+      "aihole",
+      "pattadakal",
+      "badami"
     ]
   },
   {
@@ -100,9 +283,43 @@
     "stays": "No hotel stay included",
     "transferCopy": "Send us your accommodation name and address when you enquire. We’ll agree on a pickup time and return point. If you’re fitting the tour around a train or bus, mention that early so we can discuss a suitable sightseeing window.",
     "stayCopy": "Keep the accommodation you’ve already chosen. This is a sightseeing service rather than a stay package. If you would like us to arrange a hotel as well, ask about Swift or Heritage instead.",
-    "faqs": [["Is the price per person?", "No. The starting price is per private car for up to four guests. Tell us your group size and vehicle preference for a confirmed quote."], ["Do we have to see every stop?", "Tell us what interests you most and how much time you have. We’ll discuss a route that suits your day before confirming it."], ["Can we book a larger vehicle?", "Tell us the number of adults and children, and any luggage you’ll carry. We’ll discuss suitable options and confirm the vehicle-specific rate with you."]],
+    "faqs": [
+      [
+        "Is the price per person?",
+        "No. The starting price is per private car for up to four guests. Tell us your group size and vehicle preference for a confirmed quote."
+      ],
+      [
+        "Do we have to see every stop?",
+        "Tell us what interests you most and how much time you have. We’ll discuss a route that suits your day before confirming it."
+      ],
+      [
+        "Can we book a larger vehicle?",
+        "Tell us the number of adults and children, and any luggage you’ll carry. We’ll discuss suitable options and confirm the vehicle-specific rate with you."
+      ]
+    ],
     "days": [
-      {"title": "Your Hampi sightseeing day", "intro": "Hotel or address pickup in Hampi / Hospet, followed by these sightseeing stops.", "end": "Return to your agreed drop-off point after the tour.", "stops": ["Vijaya Vittala Temple", "Virupaksha Temple", "Kadalekalu Ganesha Temple", "Sasivekalu Ganesha Temple", "Lakshmi Narasimha Temple", "Krishna Temple", "Hemakuta Hill Temple", "Queen’s Bath", "Mahanavami Platform", "Hazara Rama Temple", "Lotus Mahal (Lotus Temple)", "Elephant Stables"]}
+      {
+        "title": "Your Hampi sightseeing day",
+        "intro": "Hotel or address pickup in Hampi / Hospet, followed by these sightseeing stops.",
+        "end": "Return to your agreed drop-off point after the tour.",
+        "stops": [
+          "Vijaya Vittala Temple",
+          "Virupaksha Temple",
+          "Kadalekalu Ganesha Temple",
+          "Sasivekalu Ganesha Temple",
+          "Lakshmi Narasimha Temple",
+          "Krishna Temple",
+          "Hemakuta Hill Temple",
+          "Queen’s Bath",
+          "Mahanavami Platform",
+          "Hazara Rama Temple",
+          "Lotus Mahal (Lotus Temple)",
+          "Elephant Stables"
+        ]
+      }
+    ],
+    "destinationIds": [
+      "hampi"
     ]
   }
 ]

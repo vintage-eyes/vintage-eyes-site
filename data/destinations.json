@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "hampi",
+    "name": "Hampi",
+    "region": "Vijayanagara · Karnataka",
+    "tagline": "Where the landscape tells half the story.",
+    "intro": "Temple towers, old market streets and a horizon of granite boulders. In Hampi, the space between the monuments is part of the experience.",
+    "image": "hampi",
+    "imageAlt": "A stone pavilion on Hemakuta Hill overlooking Virupaksha Temple in Hampi",
+    "caption": "Hemakuta Hill · Hampi",
+    "character": "Temples, royal ruins & boulder landscapes",
+    "overview": "The former capital of the Vijayanagara Empire sits beside the Tungabhadra River. Its UNESCO-listed monuments stretch across a landscape of temples, royal structures and stone pavilions. Move between the sacred and royal areas, then leave a little room to simply look around. A doorway, a carved pillar or a distant hill can hold your attention as much as a celebrated landmark.",
+    "highlights": [
+      {"name": "Vittala Temple & Stone Chariot", "description": "Begin with Hampi’s celebrated stone chariot, then look more closely at the temple’s carved halls and pillars."},
+      {"name": "Virupaksha Temple", "description": "An active place of worship beside Hampi Bazaar, with a prominent gateway that anchors the surrounding skyline."},
+      {"name": "Lotus Mahal & Elephant Stables", "description": "Explore a different side of Hampi through the arches, domes and spaces associated with its royal past."},
+      {"name": "Hemakuta Hill", "description": "Take in the temples and the wider boulder landscape. Leave time for the view, rather than treating it as another quick stop."}
+    ],
+    "arrival": "Hosapete (Hospet) is a useful arrival point for Hampi. Share your train or bus details so we can discuss the onward transfer and your first sightseeing day.",
+    "pace": "Choose a short introduction or spread the sightseeing over more days. Tell us which places matter most and how much walking feels comfortable for your group.",
+    "pairing": "For a longer journey, Hampi can be combined with Aihole, Pattadakal and Badami. Allow for the travel between places when choosing the length of your holiday.",
+    "sources": [{"label": "Karnataka Tourism — Hampi", "url": "https://karnatakatourism.org/en/destinations/hampi"}]
+  },
+  {
+    "slug": "aihole",
+    "name": "Aihole",
+    "region": "Bagalkot · Karnataka",
+    "tagline": "Small details. Big beginnings.",
+    "intro": "A village of sandstone shrines and architectural experiments. Aihole rewards the traveller who enjoys looking a little closer.",
+    "image": "aihole",
+    "imageAlt": "The pillared exterior and curved end of Durga Temple in Aihole",
+    "caption": "Durga Temple · Aihole",
+    "character": "Early temple architecture & sandstone carvings",
+    "overview": "Aihole is known for the early temple-building experiments of the Chalukyas. The monuments offer different ways of shaping a shrine, a hall or a carved entrance. The Durga Temple is a natural starting point, but don’t let one familiar photograph define the whole visit. Take a moment to compare the forms you see as you move from one site to the next.",
+    "highlights": [
+      {"name": "Durga Temple", "description": "Its distinctive curved, horseshoe-shaped end and pillared passage make this one of Aihole’s most recognisable monuments."},
+      {"name": "Lad Khan Temple", "description": "An early stone temple that offers another perspective on the architectural ideas being explored at Aihole."},
+      {"name": "Ravana Phadi Cave", "description": "Step into a rock-cut setting and look for the sculpted panels. It brings a different scale and atmosphere to the visit."},
+      {"name": "Meguti Jain Temple", "description": "A hilltop Jain temple associated with an important inscription from the early Chalukyan period."}
+    ],
+    "arrival": "Aihole is reached by road and is often visited alongside Badami and Pattadakal. Tell us your starting point before we help shape the route.",
+    "pace": "Leave time to compare the monuments instead of rushing between them. Bring water, sun protection and comfortable footwear for the outdoor portions of your visit.",
+    "pairing": "Pair Aihole with Pattadakal and Badami to see different expressions of Chalukyan architecture. A longer circuit can also begin in Hampi.",
+    "sources": [{"label": "Karnataka Tourism — Aihole", "url": "https://karnatakatourism.org/en/destinations/aihole"}]
+  },
+  {
+    "slug": "pattadakal",
+    "name": "Pattadakal",
+    "region": "Bagalkot · Karnataka",
+    "tagline": "Many styles. One remarkable setting.",
+    "intro": "A group of temples where northern and southern architectural traditions meet. Let your eye travel from the broad skyline to the smallest carving.",
+    "image": "pattadakal",
+    "imageAlt": "Virupaksha Temple and its stone enclosure at Pattadakal",
+    "caption": "Virupaksha Temple · Pattadakal",
+    "character": "UNESCO heritage & Chalukyan temple architecture",
+    "overview": "Pattadakal’s UNESCO-listed temple group reflects the Chalukyas’ architectural achievements in the seventh and eighth centuries. Northern and southern forms appear together, making this a rewarding place to compare temple shapes and details. Begin with the impressive Virupaksha Temple, then give the surrounding monuments their own attention. The interest lies in the group as much as in any single building.",
+    "highlights": [
+      {"name": "Virupaksha Temple", "description": "A landmark of the temple group, built under Queen Lokamahadevi. Its carvings invite more than a passing glance."},
+      {"name": "Mallikarjuna Temple", "description": "Look at the temple’s form, then compare its details with the neighbouring monuments rather than seeing each in isolation."},
+      {"name": "Sangameshwara Temple", "description": "Include this shrine as you explore the group. Take a little time to notice the arrangement of its stone spaces."},
+      {"name": "Papanatha Temple", "description": "Another stop for appreciating the variety of architectural details found across Pattadakal’s monuments."}
+    ],
+    "arrival": "Pattadakal is commonly visited by road from Badami or as part of a journey through Aihole. We can discuss the sequence around your arrival and overnight base.",
+    "pace": "Give yourself time to walk the group and look closely. If you’re especially interested in architecture, tell us before we plan the day so the visit reflects that interest.",
+    "pairing": "Aihole and Badami give this visit a wider context. Add Hampi if you would like a longer Karnataka heritage journey with more than one overnight base.",
+    "sources": [{"label": "UNESCO — Group of Monuments at Pattadakal", "url": "https://whc.unesco.org/en/list/239/"}, {"label": "Karnataka Tourism — Pattadakal", "url": "https://karnatakatourism.org/en/destinations/pattadakal"}]
+  },
+  {
+    "slug": "badami",
+    "name": "Badami",
+    "region": "Bagalkot · Karnataka",
+    "tagline": "Follow the colour of the cliffs.",
+    "intro": "Red sandstone, carved cave halls and temples beside Agastya Lake. Badami brings architecture and landscape into the same frame.",
+    "image": "badami",
+    "imageAlt": "Agastya Lake with sandstone cliffs and temples in Badami",
+    "caption": "Agastya Lake · Badami",
+    "character": "Rock-cut caves, sandstone hills & lakeside temples",
+    "overview": "Once a Chalukyan capital, Badami is known for its rock-cut cave temples and the sandstone hills around the town. The caves draw your attention to carved figures and pillared interiors; the lake brings the view back out into the open. Let the two experiences balance each other. You can spend time with the details, then pause for a wider look at the setting.",
+    "highlights": [
+      {"name": "Badami Cave Temples", "description": "Four rock-cut caves with Hindu and Jain sculptures. The climb gives you changing views as well as different carved interiors."},
+      {"name": "Agastya Lake", "description": "The lake sits beneath the surrounding cliffs and monuments. Take time to appreciate how the landscape frames the town."},
+      {"name": "Bhutanatha Temples", "description": "The lakeside temple setting is one of Badami’s distinctive scenes, especially for travellers who enjoy photographing architecture."},
+      {"name": "Badami Fort", "description": "A hilltop stop with views across the town. Discuss the uneven paths and walking involved before adding the climb to your day."}
+    ],
+    "arrival": "Badami has a railway station and road connections for the surrounding heritage circuit. Share your arrival and departure points so the transfers can be planned together.",
+    "pace": "The caves and fort involve steps or uneven ground. Tell us about mobility needs, keep your footwear practical, and leave room for breaks during the day.",
+    "pairing": "Badami can serve as a base for visits to Aihole and Pattadakal. Hampi belongs to a longer journey, with road travel and overnight stays planned into the circuit.",
+    "sources": [{"label": "Karnataka Tourism — Badami", "url": "https://karnatakatourism.org/en/destinations/badami"}]
+  }
+]

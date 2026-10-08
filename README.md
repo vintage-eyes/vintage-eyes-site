@@ -25,8 +25,10 @@ From this folder, run `python3 -m http.server 8000` and open http://localhost:80
 - `index.html`: visible page content, package cards, FAQs and enquiry form.
 - `assets/css/style.css`: independent design and responsive styles.
 - `data/tours.json`: dedicated tour-page content and complete day-by-day itineraries.
-- `scripts/build-pages.py`: generates all four static tour pages from the tour content and shared homepage sections.
+- `data/destinations.json`: Hampi, Aihole, Pattadakal and Badami destination-guide content and reference links.
+- `scripts/build-pages.py`: generates all tour and destination pages from their data and shared homepage sections.
 - `tours/*/index.html`: generated tour pages, checked into Git so GitHub Pages needs no custom build workflow.
+- `destinations/*/index.html`: generated destination guides, including relevant tours, visiting notes and a contextual enquiry form.
 - `assets/js/site.js`: filters, mobile menu and WhatsApp enquiry drafts.
 - `assets/images/`: locally stored destination photography.
 
@@ -34,7 +36,7 @@ Call and WhatsApp links use +91 6363336467, confirmed by the owner. Every tour h
 
 ## Regenerate tour pages
 
-After changing `data/tours.json`, the shared header/footer/enquiry section in `index.html`, or the page template, run:
+After changing either content JSON file, the shared header/footer/enquiry section in `index.html`, or the page template, run:
 
 ```sh
 python3 scripts/build-pages.py
@@ -48,6 +50,20 @@ py -3 -m http.server 8000 --bind 127.0.0.1
 ```
 
 Then preview http://127.0.0.1:8000/. The generator uses only Python's standard library. There are no Node or npm dependencies. Include the generated tour HTML, `sitemap.xml` and `robots.txt` with any relevant source changes when publishing. Running the generator alone does not publish anything.
+
+## Destination guides and tour matching
+
+The homepage destination strip and footer link to `/destinations/hampi/`, `/destinations/aihole/`, `/destinations/pattadakal/` and `/destinations/badami/`. Each guide has an introduction, destination highlights, planning notes, matching tour cards and links to the other guides. Destination forms offer the relevant tours and include the destination name in the WhatsApp draft.
+
+Tour matching uses each tour's explicit `destinationIds` array in `data/tours.json`; it does not guess from keywords. All four current tours visit Hampi. Only Regal visits Aihole, Pattadakal and Badami. The latter pages clearly describe Regal as the full four-day, four-destination circuit. To add a matching tour later, create its homepage card and tour-data record, add the relevant destination slugs, then regenerate the pages. Keep the data, homepage card and tour route consistent.
+
+Destination facts were checked against Karnataka Tourism and UNESCO on 8 October 2026. Original visitor-focused prose is used; operating times and ticket prices are not hardcoded in the guides.
+
+- https://karnatakatourism.org/en/destinations/hampi
+- https://karnatakatourism.org/en/destinations/aihole
+- https://karnatakatourism.org/en/destinations/pattadakal
+- https://whc.unesco.org/en/list/239/
+- https://karnatakatourism.org/en/destinations/badami
 
 ## Enquiry safeguards and limitations
 
@@ -84,10 +100,12 @@ Dedicated pages retain the reference's itinerary stop order and day groupings, w
 
 ## Photography
 
-All three images are from Wikimedia Commons and licensed under CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/. Attribution is also available in the website footer.
+Images are from Wikimedia Commons. Hampi, the Stone Chariot, Badami and Aihole use CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/. Pattadakal uses CC BY-SA 3.0: https://creativecommons.org/licenses/by-sa/3.0/. Attribution is also available in the website footer.
 
 - `hampi.jpg`: **Hampi - Hemakuta Hill, Virupaksha Temple**, Ingo Mehling. https://commons.wikimedia.org/wiki/File:Hampi_-_Hemakuta_Hill,_Virupaksha_Temple.jpg
 - `chariot.jpg`: **Stone Chariot, Hampi 2**, Ajayreddykalavalli. https://commons.wikimedia.org/wiki/File:Stone_Chariot,_Hampi_2.jpg
 - `badami.jpg`: **Agastya Lake with Badami Temples**, Mbigul. https://commons.wikimedia.org/wiki/File:Agastya_Lake_with_Badami_Temples.jpg
+- `aihole.jpg`: **Durga Temple in Aihole**, IM3847. https://commons.wikimedia.org/wiki/File:Durga_Temple_in_Aihole.jpg
+- `pattadakal.jpg`: **Virupaksha Temple, Pattadakal, Karnataka**, Mukul Banerjee. https://commons.wikimedia.org/wiki/File:Virupaksha_Temple,_Pattadakal,_Karnataka.jpg
 
-Images are resized and cropped for display. Image adaptations retain CC BY-SA 4.0. That image license does not license the website’s original code or branding.
+Images are resized and cropped for display. Each image adaptation retains its respective CC BY-SA license. These image licenses do not license the website’s original code or branding.
