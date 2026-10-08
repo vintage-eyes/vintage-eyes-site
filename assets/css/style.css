@@ -9,8 +9,97 @@
 dialog{width:min(620px,calc(100% - 32px));max-height:85dvh;background:var(--paper);color:var(--ink);border:0;padding:40px;box-shadow:0 20px 80px #0003;overflow:auto}dialog::backdrop{background:#21191bbf;backdrop-filter:blur(3px)}body.modal-open{overflow:hidden}.dialog-close{position:absolute;right:14px;top:8px;background:none;border:0;font-size:30px;padding:0 10px}.dialog-image{height:180px;width:100%;margin-bottom:24px}.dialog-title{font:42px/1.1 var(--serif);margin:12px 0 8px}.dialog-price{font-size:13px;color:var(--wine);margin:12px 0}.dialog-description{font-size:12px;color:var(--muted)}.itinerary{padding:0;list-style:none;margin:24px 0}.itinerary li{padding:12px 0;border-top:1px solid var(--line)}.itinerary strong{display:block;font-size:11px;font-weight:500}.itinerary p{font-size:11px;color:var(--muted);margin-top:4px}.dialog-inclusions{font-size:11px;color:var(--muted);margin:18px 0}.dialog-note{font-size:9px;color:var(--muted);margin-top:12px}.menu-toggle{background:none;border:1px solid var(--line);padding:8px 12px;font-size:11px}.menu-toggle span{margin-left:10px}
 @media(min-width:1600px){.destination-strip,.site-header,.site-footer,.plan{padding-left:max(5.5%,calc((100vw - 1424px)/2));padding-right:max(5.5%,calc((100vw - 1424px)/2))}}
 @media(max-width:1000px){nav{gap:18px}.hero{gap:35px}.hero h1{font-size:75px}.hero-image>img{height:430px}.hero-image figcaption{font-size:8px}.destination-strip i{margin:0 14px}.destination-strip>span{font-size:7px}.section-heading{display:block}.section-heading>p{margin-top:18px}.perspective{gap:6%}.tour-meta{font-size:8px}.tour-meta span{font-size:7px}.tour-bottom .text-link{gap:8px}.plan{gap:5%}.form-grid{gap:15px}}
-@media(max-width:760px){html{scroll-padding-top:25px}.site-header{padding:20px 6%;align-items:center;flex-wrap:wrap}.brand>span{font-size:27px}.brand svg{width:40px}.brand small{font-size:7px}nav{flex-wrap:wrap;width:100%;gap:20px;padding-top:10px}nav .button{padding:8px 14px}.js-enabled nav{display:none}.js-enabled nav.is-open{display:flex}.hero{grid-template-columns:1fr;padding:35px 6% 38px;gap:35px}.hero h1{font-size:clamp(64px,12vw,90px);letter-spacing:-2px;margin:22px 0}.hero-description{max-width:400px}.hero-footnote{margin-top:25px}.hero-image{margin-left:18px}.hero-image>img{height:450px;max-height:110vw}.image-stamp{width:95px;height:95px;font-size:8px;left:-18px;bottom:55px}.image-stamp i{font-size:25px}.destination-strip{justify-content:center;padding:20px 6%}.destination-strip>span{display:none}.destination-strip p{font-size:21px}.destination-strip i{margin:0 11px}.section{padding:55px 6%}.section-heading h2{font-size:42px;max-width:440px}.section-heading h2 em{display:block}.filters{flex-wrap:wrap;gap:7px;margin:26px 0}.filter{font-size:10px;padding:8px 13px}.filter span{margin-left:8px}.tour-grid{gap:24px;grid-template-columns:1fr}.tour-image img{height:280px}.tour-body{padding:22px}.tour-meta{font-size:9px}.tour-meta span{font-size:8px}.tour-body>p:not(.tour-meta){min-height:0}.tour-bottom .text-link{gap:18px}.perspective{grid-template-columns:1fr;gap:32px}.perspective-photo img{height:370px}.perspective-copy h2{font-size:48px}.perspective-copy>p:not(.eyebrow){max-width:none}.faq{grid-template-columns:1fr;gap:30px}.faq h2{font-size:46px}.faq-list details{padding:17px 0}.plan{grid-template-columns:1fr;gap:38px}.plan h2{font-size:60px}.form-grid{gap:18px}.plan form .button{padding:16px 20px}.footer-top{align-items:start;flex-wrap:wrap}.footer-top>p{display:none}.footer-brand{font-size:28px}.footer-top .text-link{font-size:9px;gap:12px}.footer-bottom{flex-wrap:wrap}.footer-bottom>span:nth-child(2){display:none}.credits{max-width:220px}.credits summary{text-align:left}dialog{padding:30px 24px}.dialog-title{font-size:36px}}
+@media(max-width:760px){html{scroll-padding-top:25px}.site-header{padding:20px 6%;align-items:center;flex-wrap:wrap}.brand>span{font-size:27px}.brand svg{width:40px}.brand small{font-size:7px}nav{flex-wrap:wrap;width:100%;gap:20px;padding-top:10px}nav .button{padding:8px 14px}.js-enabled #navigation{display:none}.js-enabled #navigation.is-open{display:flex}.hero{grid-template-columns:1fr;padding:35px 6% 38px;gap:35px}.hero h1{font-size:clamp(64px,12vw,90px);letter-spacing:-2px;margin:22px 0}.hero-description{max-width:400px}.hero-footnote{margin-top:25px}.hero-image{margin-left:18px}.hero-image>img{height:450px;max-height:110vw}.image-stamp{width:95px;height:95px;font-size:8px;left:-18px;bottom:55px}.image-stamp i{font-size:25px}.destination-strip{justify-content:center;padding:20px 6%}.destination-strip>span{display:none}.destination-strip p{font-size:21px}.destination-strip i{margin:0 11px}.section{padding:55px 6%}.section-heading h2{font-size:42px;max-width:440px}.section-heading h2 em{display:block}.filters{flex-wrap:wrap;gap:7px;margin:26px 0}.filter{font-size:10px;padding:8px 13px}.filter span{margin-left:8px}.tour-grid{gap:24px;grid-template-columns:1fr}.tour-image img{height:280px}.tour-body{padding:22px}.tour-meta{font-size:9px}.tour-meta span{font-size:8px}.tour-body>p:not(.tour-meta){min-height:0}.tour-bottom .text-link{gap:18px}.perspective{grid-template-columns:1fr;gap:32px}.perspective-photo img{height:370px}.perspective-copy h2{font-size:48px}.perspective-copy>p:not(.eyebrow){max-width:none}.faq{grid-template-columns:1fr;gap:30px}.faq h2{font-size:46px}.faq-list details{padding:17px 0}.plan{grid-template-columns:1fr;gap:38px}.plan h2{font-size:60px}.form-grid{gap:18px}.plan form .button{padding:16px 20px}.footer-top{align-items:start;flex-wrap:wrap}.footer-top>p{display:none}.footer-brand{font-size:28px}.footer-top .text-link{font-size:9px;gap:12px}.footer-bottom{flex-wrap:wrap}.footer-bottom>span:nth-child(2){display:none}.credits{max-width:220px}.credits summary{text-align:left}dialog{padding:30px 24px}.dialog-title{font-size:36px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 .menu-toggle{display:none}
 @media(max-width:760px){.menu-toggle{display:block}}
+
+/* Shared WhatsApp controls and enquiry safeguards. */
+.whatsapp-icon{width:20px;height:20px;flex-shrink:0;display:inline-block;vertical-align:middle}
+.whatsapp-button{gap:12px;justify-content:center}
+.whatsapp-button>span,.whatsapp-button .whatsapp-label{font-size:12px;font-weight:500}
+.whatsapp-button>span[aria-hidden]{font-size:20px;margin-left:auto}
+.plan form .whatsapp-button{justify-content:flex-start}
+.floating-whatsapp{position:fixed;right:24px;bottom:24px;z-index:20;display:flex;align-items:center;gap:10px;padding:13px 18px;background:#235d45;color:white;border:1px solid #fff5;border-radius:40px;box-shadow:0 4px 18px #0002;font-size:11px}
+.floating-whatsapp:hover{background:#1a4a36}
+.floating-whatsapp .whatsapp-icon{width:23px;height:23px}
+.form-trap{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+.no-script-enquiry p{font-size:13px;margin-bottom:20px}
+.no-script-enquiry .button{background:var(--paper);color:var(--wine)}
+.site-footer{padding-bottom:90px}
+
+/* Dedicated tour pages. */
+.tour-page{scroll-padding-top:95px}
+.breadcrumbs{padding:24px 5.5% 0;display:flex;gap:13px;align-items:center;font-size:10px;color:var(--muted);max-width:1600px;margin:auto;flex-wrap:wrap}
+.breadcrumbs a:hover{text-decoration:underline;color:var(--wine)}
+.tour-hero{display:grid;grid-template-columns:1.2fr 1fr;gap:8%;align-items:center;padding-top:40px;padding-bottom:55px}
+.tour-hero h1{font:clamp(60px,6vw,94px)/1 var(--serif);letter-spacing:-2px;margin:25px 0;color:var(--wine)}
+.tour-tagline{font:30px/1.3 var(--serif);margin-bottom:18px}
+.tour-intro{font-size:13px;max-width:440px;color:var(--muted)}
+.tour-hero-actions{display:flex;gap:26px;align-items:center;margin:28px 0;flex-wrap:wrap}
+.tour-location{font-size:10px;letter-spacing:1px;color:var(--wine)}
+.tour-hero figure img{width:100%;height:380px;border-radius:45% 45% 0 0}
+.tour-hero figcaption{font-size:8px;letter-spacing:1.5px;margin-top:14px;color:var(--muted)}
+.tour-section-nav{position:sticky;top:0;z-index:15;background:var(--paper);padding:18px 5.5%;border-top:1px solid var(--line);border-bottom:1px solid var(--line);gap:28px;overflow-x:auto;white-space:nowrap}
+.tour-section-nav a{font-size:11px}
+.tour-section-nav a:hover{color:var(--wine);text-decoration:underline}
+.tour-layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:7%;align-items:start;padding-top:55px;padding-bottom:15px}
+.tour-content{min-width:0}
+.tour-section{padding:0 0 50px;margin-bottom:45px;border-bottom:1px solid var(--line);scroll-margin-top:90px}
+.tour-section h2{font-size:42px;line-height:1.12;margin:16px 0 22px}
+.tour-section>p:not(.eyebrow){font-size:13px;color:var(--muted);max-width:680px;line-height:1.9}
+.tour-section .section-note{font-size:11px!important}
+.day-itinerary{margin-top:30px;border:1px solid var(--line);padding:25px;background:#fbf9f4}
+.day-heading{display:flex;gap:17px;align-items:center}
+.day-number{font:38px var(--serif);color:#ad8e7b}
+.day-heading .eyebrow{font-size:8px}
+.day-heading h3{font:27px/1.2 var(--serif);margin-top:3px}
+.day-intro{font-size:11px;color:var(--muted);margin:18px 0}
+.stop-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:0 24px}
+.stop-list li{display:flex;align-items:center;gap:12px;border-top:1px solid var(--line);padding:13px 0;min-width:0}
+.stop-number{font-size:8px;color:#9b7f6a;min-width:15px}
+.stop-list h4{font:12px/1.65 var(--sans);margin:0;font-weight:400}
+.optional-stop{display:block;font-size:8px;line-height:1.6;color:var(--muted);margin-top:4px}
+.day-end{border-top:1px solid var(--line);padding-top:15px;margin-top:5px;font-size:10px;color:var(--wine)}
+.included-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-bottom:30px}
+.included-grid h3,.transfer-details h3{font:27px var(--serif);margin:0 0 14px}
+.included-grid ul{padding-left:18px;margin:0;font-size:11px;line-height:1.9;color:var(--muted)}
+.included-grid li{padding:3px 0}
+.transfer-details{margin-top:30px;background:#eee8dc;padding:24px}
+.transfer-details dl{margin:0 0 18px}
+.transfer-details dl>div{display:grid;grid-template-columns:65px 1fr;gap:10px;font-size:11px;margin:10px 0}
+.transfer-details dt{color:var(--wine)}
+.transfer-details dd{margin:0;color:var(--muted)}
+.transfer-details>p{font-size:11px;color:var(--muted)}
+.stay-options{display:grid;grid-template-columns:1fr 1fr 1fr;gap:15px;margin:25px 0}
+.stay-options article{padding:18px 16px;border:1px solid var(--line)}
+.stay-options .eyebrow{font-size:8px;letter-spacing:1px}
+.stay-options h3{font:23px/1.2 var(--serif);margin:10px 0}
+.stay-options p:not(.eyebrow){font-size:10px;color:var(--muted)}
+.tour-sidebar{position:sticky;top:95px;border:1px solid var(--line);padding:26px;background:#eee8dc}
+.tour-sidebar>.eyebrow{font-size:8px;letter-spacing:1.4px}
+.tour-sidebar h2{font:33px var(--serif);margin:14px 0 20px;color:var(--wine)}
+.tour-sidebar dl{margin:0}
+.tour-sidebar dl>div{display:grid;grid-template-columns:60px 1fr;gap:12px;font-size:10px;padding:10px 0;border-top:1px solid var(--line)}
+.tour-sidebar dt{color:var(--muted)}
+.tour-sidebar dd{margin:0}
+.sidebar-price{margin:23px 0 12px}
+.sidebar-price>span{display:block;font-size:8px;letter-spacing:1px;color:var(--muted)}
+.sidebar-price strong{display:block;font:44px/1.3 var(--serif)}
+.sidebar-price small{font-size:10px;color:var(--muted)}
+.section-note{font-size:10px;line-height:1.9;color:var(--muted)}
+.tour-sidebar .button{width:100%;padding:13px 16px;gap:10px;margin-top:20px}
+.tour-sidebar .button>span{font-size:10px}
+.tour-sidebar .button>span[aria-hidden]{font-size:19px}
+.sidebar-call{display:block;font-size:9px;text-align:center;color:var(--wine);margin-top:16px}
+.other-journeys{padding-top:10px;padding-bottom:60px}
+.other-journeys h2{font-size:42px;margin:15px 0 25px}
+.other-journeys>div{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.other-tour{display:grid;grid-template-columns:1fr auto;gap:7px;border:1px solid var(--line);padding:20px}
+.other-tour>span:first-child{grid-column:1/-1;font-size:9px;color:var(--muted)}
+.other-tour strong{font:26px var(--serif);color:var(--wine)}
+.other-tour>span:last-child{font-size:20px;color:var(--wine)}
+.other-tour:hover{background:#eee8dc}
+@media(max-width:1050px){.tour-layout{grid-template-columns:minmax(0,1fr) 275px;gap:4%}.tour-section-nav{gap:20px}.stop-list{grid-template-columns:1fr}.stay-options{grid-template-columns:1fr}.stay-options article{display:grid;grid-template-columns:90px 1fr;gap:10px;align-items:center}.stay-options h3{margin:0}.stay-options p:not(.eyebrow){grid-column:2}.tour-sidebar{padding:20px}.other-tour strong{font-size:22px}}
+@media(max-width:760px){.floating-whatsapp{right:16px;bottom:16px;padding:13px}.floating-whatsapp>span{display:none}.breadcrumbs{padding:20px 6% 0;font-size:9px;gap:9px}.tour-hero{grid-template-columns:1fr;gap:30px;padding-top:30px;padding-bottom:35px}.tour-hero h1{font-size:65px;letter-spacing:-1px}.tour-tagline{font-size:28px}.tour-hero figure img{height:300px}.tour-section-nav{width:100%;padding:15px 6%;flex-wrap:nowrap;gap:22px}.tour-section-nav a{font-size:10px}.tour-layout{display:flex;flex-direction:column;padding-top:35px;gap:35px}.tour-content{width:100%}.tour-sidebar{order:-1;width:100%;position:static;display:grid;grid-template-columns:1fr 1fr;gap:0 20px;padding:22px}.tour-sidebar>.eyebrow,.tour-sidebar>h2,.tour-sidebar>.section-note,.tour-sidebar>.button,.tour-sidebar>.sidebar-call{grid-column:1/-1}.tour-sidebar h2{margin-bottom:15px}.tour-sidebar dl{grid-column:1}.sidebar-price{margin:5px 0;grid-column:2;padding-left:10px}.sidebar-price strong{font-size:38px}.tour-sidebar dl>div{grid-template-columns:1fr;gap:3px}.tour-sidebar .section-note{margin-top:14px}.tour-section h2{font-size:36px}.tour-section{padding-bottom:35px;margin-bottom:35px}.day-itinerary{padding:20px}.day-heading{gap:12px}.day-number{font-size:32px}.day-heading h3{font-size:25px}.stop-list{grid-template-columns:1fr}.included-grid{grid-template-columns:1fr;gap:25px}.transfer-details{padding:20px}.stay-options article{grid-template-columns:1fr;gap:5px}.stay-options p:not(.eyebrow){grid-column:1}.other-journeys>div{grid-template-columns:1fr;gap:12px}.other-tour strong{font-size:27px}.tour-page .plan h2{font-size:54px}}
